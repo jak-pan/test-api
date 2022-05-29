@@ -28,5 +28,9 @@
     "tsup": "6.0.1",
     "typescript": "4.5.4",
     "vitest": "0.12.6"
+  },
+  "dependencies": {
+    "@polkadot/api": "^8.5.1",
+    "pretty-print-json": "^1.2.4"
   }
 }
