@@ -8,6 +8,7 @@
   "files": [
     "dist"
   ],
+  "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "exports": {
@@ -16,10 +17,8 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build-fast": "tsup src/index.ts --format cjs,esm",
-    "build": "pnpm run build-fast -- --dts-resolve",
-    "test": "vitest run",
-    "prepublishOnly": "pnpm run build"
+    "start": "node --loader ts-node/esm ./src/index.ts",
+    "open": "open ./dist/index.html"
   },
   "license": "MIT",
   "devDependencies": {
@@ -32,6 +31,7 @@
   "dependencies": {
     "@polkadot/api": "^8.5.1",
     "pretty-print-json": "^1.2.4",
+    "ts-node": "^10.9.1",
     "w-jsonview-tree": "^1.0.27"
   }
 }
