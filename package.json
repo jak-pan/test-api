@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@polkadot/api": "^8.5.1",
-    "pretty-print-json": "^1.2.4"
+    "pretty-print-json": "^1.2.4",
+    "w-jsonview-tree": "^1.0.27"
   }
 }

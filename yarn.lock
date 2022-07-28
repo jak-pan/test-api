@@ -1507,6 +1507,11 @@ vitest@0.12.6:
     tinyspy "^0.3.2"
     vite "^2.9.8"
 
+w-jsonview-tree@^1.0.27:
+  version "1.0.27"
+  resolved "https://registry.yarnpkg.com/w-jsonview-tree/-/w-jsonview-tree-1.0.27.tgz#3a108fabbb215c5231430563d7f9b125c0fca69f"
+  integrity sha512-aunKNTwr4VLjTDz8Mc473IfQe0ooyw8nKzfRT5xIW25PH2zADb5AN7b+TEMOYGkkEscgySnGl77qCpgr4TFDtg==
+
 webidl-conversions@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
